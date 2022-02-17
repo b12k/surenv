@@ -1,3 +1,10 @@
+### [0.1.4](https://github.com/b12k/surenv/compare/0.1.3...0.1.4) (2022-02-17)
+
+
+### Bug Fixes
+
+* file name and removed images from npm package ([3839716](https://github.com/b12k/surenv/commit/38397165f5c0e336707a32e0ce84e483279dc6de))
+
 ### [0.1.3](https://github.com/b12k/surenv/compare/0.1.2...0.1.3) (2022-02-17)
 
 ### [0.1.2](https://github.com/b12k/surenv/compare/0.1.1...0.1.2) (2022-02-17)
