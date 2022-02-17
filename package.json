@@ -1,7 +1,7 @@
 {
   "name": "surenv",
   "version": "0.0.0",
-  "description": "",
+  "description": "Handy environment variables reader with some extra features",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "publishConfig": {
@@ -16,7 +16,16 @@
     "husky:commit-msg": "commitlint",
     "husky:pre-commit": "tsc --noEmit && lint-staged"
   },
-  "keywords": [],
+  "keywords": [
+    "env",
+    "environment",
+    "variables",
+    "types",
+    "typed",
+    "ensure",
+    "required",
+    "optional"
+  ],
   "author": "Bogdan Kolesnyk",
   "license": "MIT",
   "repository": {
