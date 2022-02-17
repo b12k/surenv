@@ -37,20 +37,32 @@ configuration.
 ```typescript
 import Surenv from 'surenv';
 
-const { required, optional } = new Surenv();
+// Surenv constructur argument is optional, see below
+const { required, optional } = new Surenv({ prefix: 'MY_APP' });
 
 export default {
+  // Will try to resolve or fail VAR_NAME or PREFIX_VAR_NAME
   ...required(
     'NODE_ENV',
     'SERVER_ENV',
-    'OTHER_VERY_IMPORTAN_VAR',
+    'OTHER_VERY_IMPORTANT_VARIABLE',
   ),
+  // Will try to resolve VAR_NAME or PREFIX_VAR_NAME
   ...optional(
     'NOT_IMPORTANT_VARIABLE',
     'THIS_ONE_ALSO_NOT_IMPORTANT'
   ),
 }
 ```
+
+`in your editor`
+
+![DX Snapshot](dx-snapshot.jpg)
+
+### Hint 💡
+
+_For better `optional` variables checks set `strictNullChecks` in your
+`tsconfig.json` to `true`._
 
 ## Configure
 
