@@ -5,8 +5,8 @@
 <div align="center">
   <img src="./logo.png" alt="Envsure">
   <p>Handy environment variables reader with some extra features</p>
-  <a href="https://codeclimate.com/github/b12k/branch-name-lint/maintainability">
-    <img src="https://api.codeclimate.com/v1/badges/90a30843ffa0d0410003/maintainability">
+  <a href="https://codeclimate.com/github/b12k/surenv/maintainability">
+    <img src="https://api.codeclimate.com/v1/badges/d865c5ba19138d89fb63/maintainability" />
   </a>
 </div>
 
