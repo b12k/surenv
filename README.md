@@ -3,7 +3,7 @@
 # **<div align="center">Surenv (Sure + Env)</div>**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/b12k/surenv/master/logo.png" alt="Envsure">
+  <img src="https://bit.ly/surenv-logo" alt="Envsure">
   <p>Handy environment variables reader with some extra features</p>
   <a href="https://codeclimate.com/github/b12k/surenv/maintainability">
     <img src="https://api.codeclimate.com/v1/badges/d865c5ba19138d89fb63/maintainability" />
