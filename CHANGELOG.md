@@ -1,3 +1,10 @@
+### [0.1.6](https://github.com/b12k/surenv/compare/0.1.5...0.1.6) (2022-02-18)
+
+
+### Bug Fixes
+
+* config flags in readme to match actual implementation ([3691f27](https://github.com/b12k/surenv/commit/3691f27f89eea307174a1bb3a8fdc908c987cabd))
+
 ### [0.1.5](https://github.com/b12k/surenv/compare/0.1.4...0.1.5) (2022-02-17)
 
 ### [0.1.4](https://github.com/b12k/surenv/compare/0.1.3...0.1.4) (2022-02-17)
