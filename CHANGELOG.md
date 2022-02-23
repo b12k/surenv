@@ -1,3 +1,10 @@
+### [0.1.7](https://github.com/b12k/surenv/compare/0.1.6...0.1.7) (2022-02-23)
+
+
+### Bug Fixes
+
+* missusage of undefined ([dd4013b](https://github.com/b12k/surenv/commit/dd4013b53ea3d5752c8020497b6948ef4c8092bb))
+
 ### [0.1.6](https://github.com/b12k/surenv/compare/0.1.5...0.1.6) (2022-02-18)
 
 
