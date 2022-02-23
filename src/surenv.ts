@@ -30,8 +30,8 @@ export class Surenv {
       const value = process.env[prefixedKey] || process.env[key];
 
       const isMissing = this.config.allowEmpty
-        ? value === 'undefined'
-        : value === '' || value === 'undefined';
+        ? value === undefined
+        : value === '' || value === undefined;
 
       if (isMissing) {
         const missingVars = prefixedKey
