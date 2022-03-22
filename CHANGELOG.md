@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/b12k/surenv/compare/1.0.3...1.1.0) (2022-03-22)
+
+
+### Features
+
+* silent set to false by default ([129a3b2](https://github.com/b12k/surenv/commit/129a3b2be99f2851404875018a633098c7800dd7))
+
 ### [1.0.3](https://github.com/b12k/surenv/compare/1.0.2...1.0.3) (2022-03-22)
 
 ### [1.0.2](https://github.com/b12k/surenv/compare/1.0.1...1.0.2) (2022-03-22)
