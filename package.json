@@ -1,7 +1,7 @@
 {
   "name": "surenv",
   "description": "Handy environment variables reader with some extra features",
-  "version": "0.1.7",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "publishConfig": {
