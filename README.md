@@ -76,6 +76,12 @@ type SurenvConfig = {
    */
   prefix?: string;
   /**
+   * It should ignore errors
+   * [Default]: false - when executed in node
+   *            true  - when executed in browser
+   */
+  isSilent?: boolean;
+  /**
    * Are empty string values allowed?
    * [Default]: false
    */

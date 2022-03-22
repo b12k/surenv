@@ -1,5 +1,7 @@
 export type SurenvConfig = {
+  env: Record<string, string> | NodeJS.ProcessEnv,
   prefix: string;
+  isSilent: boolean;
   allowEmpty: boolean;
   shouldWarn: boolean;
   shouldThrow: boolean;

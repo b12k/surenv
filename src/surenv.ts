@@ -4,14 +4,17 @@ import {
 } from './types';
 
 import { SurenvError } from './error';
+import { isNode } from './is-node';
 
 export class Surenv {
   private readonly config: SurenvConfig = {
+    env: process.env,
     prefix: '',
+    isSilent: !isNode,
     allowEmpty: false,
-    shouldExit: false,
+    shouldExit: true,
     shouldWarn: true,
-    shouldThrow: true,
+    shouldThrow: false,
   };
 
   constructor(config: PartialSurenvConfig = {}) {
@@ -27,13 +30,13 @@ export class Surenv {
     params.forEach((key) => {
       const prefixedKey = this.config.prefix && `${this.config.prefix}_${key}`;
 
-      const value = process.env[prefixedKey] || process.env[key];
+      const value = this.config.env[prefixedKey] || this.config.env[key];
 
       const isMissing = this.config.allowEmpty
         ? value === undefined
         : value === '' || value === undefined;
 
-      if (isMissing) {
+      if (!this.config.isSilent && isMissing) {
         const missingVars = prefixedKey
           ? `"${key}" or "${prefixedKey}"`
           : `"${key}"`;
