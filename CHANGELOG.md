@@ -1,3 +1,10 @@
+### [1.0.2](https://github.com/b12k/surenv/compare/1.0.1...1.0.2) (2022-03-22)
+
+
+### Bug Fixes
+
+* safer browser code ([631639e](https://github.com/b12k/surenv/commit/631639eb9ddacba7fc654f4108caf35de71b724e))
+
 ### [1.0.1](https://github.com/b12k/surenv/compare/1.0.0...1.0.1) (2022-03-22)
 
 ## [1.0.0](https://github.com/b12k/surenv/compare/0.1.7...1.0.0) (2022-03-22)
