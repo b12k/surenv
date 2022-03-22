@@ -1,3 +1,5 @@
+### [1.0.1](https://github.com/b12k/surenv/compare/1.0.0...1.0.1) (2022-03-22)
+
 ## [1.0.0](https://github.com/b12k/surenv/compare/0.1.7...1.0.0) (2022-03-22)
 
 
