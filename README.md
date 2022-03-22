@@ -93,12 +93,12 @@ type SurenvConfig = {
   shouldWarn?: boolean;
   /**
    * Can it throw an error when variable is missing?
-   * [Default]: true
+   * [Default]: false
    */
   shouldThrow?: boolean;
   /**
    * Can it "process.exit(1)" when variable is missing?
-   * [Default]: false
+   * [Default]: true
    */
   shouldExit?: boolean;
 };
