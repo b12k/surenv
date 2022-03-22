@@ -70,15 +70,20 @@ Surenv constructor optinally accepts configuration object.
 
 ```typescript
 type SurenvConfig = {
+    /**
+   * It should ignore errors
+   * [Default]: process.env - in nodejs environment
+   *            {}          - in browser environment
+   */
+  env?: NodeJS.ProcessEnv | Record<string, string>
   /**
    * Prefix to append to requested variable
    * [Default]: undefined
    */
   prefix?: string;
   /**
-   * It should ignore errors
-   * [Default]: false - when executed in node
-   *            true  - when executed in browser
+   * Should it silintly pass all the errors
+   * [Default]: false
    */
   isSilent?: boolean;
   /**

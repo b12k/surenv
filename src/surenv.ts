@@ -10,7 +10,7 @@ export class Surenv {
   private readonly config: SurenvConfig = {
     env: isNode ? process.env : {},
     prefix: '',
-    isSilent: !isNode,
+    isSilent: false,
     allowEmpty: false,
     shouldExit: true,
     shouldWarn: true,
