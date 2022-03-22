@@ -1,3 +1,19 @@
+## [1.0.0](https://github.com/b12k/surenv/compare/0.1.7...1.0.0) (2022-03-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* exit by default silent in browser
+
+### Features
+
+* exit by default silent in browser ([4f76fd7](https://github.com/b12k/surenv/commit/4f76fd7171477fd5c9032b39e7e1b48af53b8acf))
+
+
+### Bug Fixes
+
+* fixed readme ([e9aac90](https://github.com/b12k/surenv/commit/e9aac905f7a7c9881bb75e62a6b9678984eddde7))
+
 ### [0.1.7](https://github.com/b12k/surenv/compare/0.1.6...0.1.7) (2022-02-23)
 
 
