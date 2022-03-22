@@ -8,7 +8,7 @@ import { isNode } from './is-node';
 
 export class Surenv {
   private readonly config: SurenvConfig = {
-    env: process.env,
+    env: isNode ? process.env : {},
     prefix: '',
     isSilent: !isNode,
     allowEmpty: false,
